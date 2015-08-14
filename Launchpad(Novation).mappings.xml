@@ -325,6 +325,182 @@
                     <preset name="Toggler Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
                 </mapping>
 
+
+                <mapping>
+                <events><midi type="Note" parameter="0x8" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].InputChannel"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="2"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x8" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
+                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x8" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x8" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Select"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="4"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+
+
+                <mapping>
+                <events><midi type="Note" parameter="0x28" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].InputChannel"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="3"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x28" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
+                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x28" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x28" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Select"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="4"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+
+
+                <mapping>
+                <events><midi type="Note" parameter="0x48" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].InputChannel"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="4"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x48" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
+                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x48" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x48" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Select"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="4"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+
+
+                <mapping>
+                <events><midi type="Note" parameter="0x68" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].InputChannel"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="5"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x68" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
+                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x68" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x68" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Select"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="4"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+
+
+                <mapping>
+                <events><midi type="Note" parameter="0x18" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].InputChannel"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="2"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x18" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
+                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x18" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x18" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Select"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="9"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+
+
+                <mapping>
+                <events><midi type="Note" parameter="0x38" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].InputChannel"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="3"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x38" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
+                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x38" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x38" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Select"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="9"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+
+
+                <mapping>
+                <events><midi type="Note" parameter="0x58" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].InputChannel"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="4"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x58" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
+                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x58" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x58" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Select"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="9"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+
+
+                <mapping>
+                <events><midi type="Note" parameter="0x78" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].InputChannel"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="5"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x78" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
+                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x78" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                </mapping>
+                <mapping>
+                <events><midi type="Note" parameter="0x78" channel="0x1"/></events>
+                <controls><control alias="fam(Fx)[0x1].Select"/></controls>
+                <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="9"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
+                </mapping>
+
             </input-mappings>
             <output-mappings>
                 <device-event name="Startup">
@@ -400,13 +576,13 @@
                         <midi type="Note" parameter="0x76" channel="0x1" value="12"/>
                         <midi type="Note" parameter="0x77" channel="0x1" value="12"/>
 
-                    <midi type="Note" parameter="0x8" channel="0x1" value="12"/>
+                    <midi type="Note" parameter="0x8" channel="0x1" value="28"/>
                         <midi type="Note" parameter="0x18" channel="0x1" value="12"/>
-                        <midi type="Note" parameter="0x28" channel="0x1" value="12"/>
+                        <midi type="Note" parameter="0x28" channel="0x1" value="28"/>
                         <midi type="Note" parameter="0x38" channel="0x1" value="12"/>
-                        <midi type="Note" parameter="0x48" channel="0x1" value="12"/>
+                        <midi type="Note" parameter="0x48" channel="0x1" value="28"/>
                         <midi type="Note" parameter="0x58" channel="0x1" value="12"/>
-                        <midi type="Note" parameter="0x68" channel="0x1" value="12"/>
+                        <midi type="Note" parameter="0x68" channel="0x1" value="28"/>
                         <midi type="Note" parameter="0x78" channel="0x1" value="12"/>
                 </device-event>
 
