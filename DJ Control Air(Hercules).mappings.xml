@@ -3,7 +3,7 @@
 <main>
   <version major="1" minor="0"/>
   <controller kind="midi">
-    <id ID="744367487"/>
+    <id ID="1632623821"/>
     <properties Model="1234 DJ Control Air" Manufacturer="Hercules" Version="0.1"
                 Publisher="John Ko" PCDevice="DJ Control Air" MacDevice="DJ Control Air"
                 HiRes="on"/>
@@ -47,7 +47,7 @@
             <midi type="Note" parameter="0xe" channel="0x1"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].FineBendUp"/>
+            <control alias="fam(Player)[0x1].BendUp"/>
           </controls>
           <preset name="Holder Button">
             <parameters>
@@ -60,7 +60,7 @@
             <midi type="Note" parameter="0xd" channel="0x1"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x1].FineBendDown"/>
+            <control alias="fam(Player)[0x1].BendDown"/>
           </controls>
           <preset name="Holder Button">
             <parameters>
@@ -119,96 +119,6 @@
           </events>
           <controls>
             <control alias="fam(Mixer).Crossfader"/>
-          </controls>
-          <preset name="Direct Fader/Knob">
-            <parameters>
-              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
-              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
-              <parameter object="invert" key="on" value="off"/>
-            </parameters>
-          </preset>
-        </mapping>
-        <mapping>
-          <events>
-            <midi type="CC" parameter="0x39" channel="0x1"/>
-          </events>
-          <controls>
-            <control alias="fam(Mixer).BassGainA"/>
-          </controls>
-          <preset name="Direct Fader/Knob">
-            <parameters>
-              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
-              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
-              <parameter object="invert" key="on" value="off"/>
-            </parameters>
-          </preset>
-        </mapping>
-        <mapping>
-          <events>
-            <midi type="CC" parameter="0x38" channel="0x1"/>
-          </events>
-          <controls>
-            <control alias="fam(Mixer).MidGainA"/>
-          </controls>
-          <preset name="Direct Fader/Knob">
-            <parameters>
-              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
-              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
-              <parameter object="invert" key="on" value="off"/>
-            </parameters>
-          </preset>
-        </mapping>
-        <mapping>
-          <events>
-            <midi type="CC" parameter="0x37" channel="0x1"/>
-          </events>
-          <controls>
-            <control alias="fam(Mixer).TrebleGainA"/>
-          </controls>
-          <preset name="Direct Fader/Knob">
-            <parameters>
-              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
-              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
-              <parameter object="invert" key="on" value="off"/>
-            </parameters>
-          </preset>
-        </mapping>
-        <mapping>
-          <events>
-            <midi type="CC" parameter="0x3e" channel="0x1"/>
-          </events>
-          <controls>
-            <control alias="fam(Mixer).BassGainB"/>
-          </controls>
-          <preset name="Direct Fader/Knob">
-            <parameters>
-              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
-              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
-              <parameter object="invert" key="on" value="off"/>
-            </parameters>
-          </preset>
-        </mapping>
-        <mapping>
-          <events>
-            <midi type="CC" parameter="0x3d" channel="0x1"/>
-          </events>
-          <controls>
-            <control alias="fam(Mixer).MidGainB"/>
-          </controls>
-          <preset name="Direct Fader/Knob">
-            <parameters>
-              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
-              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
-              <parameter object="invert" key="on" value="off"/>
-            </parameters>
-          </preset>
-        </mapping>
-        <mapping>
-          <events>
-            <midi type="CC" parameter="0x3c" channel="0x1"/>
-          </events>
-          <controls>
-            <control alias="fam(Mixer).TrebleGainB"/>
           </controls>
           <preset name="Direct Fader/Knob">
             <parameters>
@@ -504,7 +414,7 @@
             <midi type="Note" parameter="0x24" channel="0x1"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x2].FineBendUp"/>
+            <control alias="fam(Player)[0x2].BendUp"/>
           </controls>
           <preset name="Holder Button">
             <parameters>
@@ -517,7 +427,7 @@
             <midi type="Note" parameter="0x23" channel="0x1"/>
           </events>
           <controls>
-            <control alias="fam(Player)[0x2].FineBendDown"/>
+            <control alias="fam(Player)[0x2].BendDown"/>
           </controls>
           <preset name="Holder Button">
             <parameters>
@@ -1000,6 +910,102 @@
               <parameter object="metronom" key="Repeat Acceleration" value="0.1"/>
               <parameter object="metronom" key="Repeat Time" value="0"/>
               <parameter object="metronom" key="Start Time" value="500"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x39" channel="0x1"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).VolumeC"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x3e" channel="0x1"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).VolumeD"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x3d" channel="0x1"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).FilterD"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x38" channel="0x1"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).FilterC"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x3c" channel="0x1"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).FilterB"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
+            </parameters>
+          </preset>
+        </mapping>
+        <mapping>
+          <events>
+            <midi type="CC" parameter="0x37" channel="0x1"/>
+          </events>
+          <controls>
+            <control alias="fam(Mixer).FilterA"/>
+          </controls>
+          <preset name="Direct Fader/Knob">
+            <parameters>
+              <parameter object="action-0" key="action" value="SetNormalTakeOver"/>
+              <parameter object="dispatch" key="centerCCandPWvalueRange" value="64 64"/>
+              <parameter object="dispatch" key="useCenteredCCandPW" value="off"/>
+              <parameter object="invert" key="on" value="off"/>
             </parameters>
           </preset>
         </mapping>
