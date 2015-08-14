@@ -427,7 +427,7 @@
                 <mapping>
                 <events><midi type="Note" parameter="0x18" channel="0x1"/></events>
                 <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
-                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.98"/></parameters></preset>
                 </mapping>
                 <mapping>
                 <events><midi type="Note" parameter="0x18" channel="0x1"/></events>
@@ -449,7 +449,7 @@
                 <mapping>
                 <events><midi type="Note" parameter="0x38" channel="0x1"/></events>
                 <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
-                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.98"/></parameters></preset>
                 </mapping>
                 <mapping>
                 <events><midi type="Note" parameter="0x38" channel="0x1"/></events>
@@ -471,7 +471,7 @@
                 <mapping>
                 <events><midi type="Note" parameter="0x58" channel="0x1"/></events>
                 <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
-                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.98"/></parameters></preset>
                 </mapping>
                 <mapping>
                 <events><midi type="Note" parameter="0x58" channel="0x1"/></events>
@@ -493,7 +493,7 @@
                 <mapping>
                 <events><midi type="Note" parameter="0x78" channel="0x1"/></events>
                 <controls><control alias="fam(Fx)[0x1].Amount"/></controls>
-                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.33"/></parameters></preset>
+                <preset name="Direct Normal Button"><parameters><parameter object="action-0" key="normal" value="0.98"/></parameters></preset>
                 </mapping>
                 <mapping>
                 <events><midi type="Note" parameter="0x78" channel="0x1"/></events>
