@@ -288,7 +288,7 @@
                     <preset name="Trigger Button"><parameters><parameter object="metronom" key="Repeat Acceleration" value="0.1"/><parameter object="metronom" key="Repeat Time" value="0"/><parameter object="metronom" key="Start Time" value="500"/></parameters></preset>
                 </mapping>
                 <mapping>
-                    <events><midi type="Note" parameter="0x4" channel="0x5"/></events>
+                    <events><midi type="Note" parameter="0x4" channel="0x1"/></events>
                     <controls><control alias="fam(Player)[0x2].SetMaster"/></controls>
                     <preset name="Trigger Button"><parameters><parameter object="metronom" key="Repeat Acceleration" value="0.1"/><parameter object="metronom" key="Repeat Time" value="0"/><parameter object="metronom" key="Start Time" value="500"/></parameters></preset>
                 </mapping>
