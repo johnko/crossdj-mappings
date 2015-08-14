@@ -422,7 +422,7 @@
                 <mapping>
                 <events><midi type="Note" parameter="0x18" channel="0x1"/></events>
                 <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
-                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                <preset name="Toggler Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
                 </mapping>
                 <mapping>
                 <events><midi type="Note" parameter="0x18" channel="0x1"/></events>
@@ -444,7 +444,7 @@
                 <mapping>
                 <events><midi type="Note" parameter="0x38" channel="0x1"/></events>
                 <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
-                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                <preset name="Toggler Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
                 </mapping>
                 <mapping>
                 <events><midi type="Note" parameter="0x38" channel="0x1"/></events>
@@ -466,7 +466,7 @@
                 <mapping>
                 <events><midi type="Note" parameter="0x58" channel="0x1"/></events>
                 <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
-                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                <preset name="Toggler Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
                 </mapping>
                 <mapping>
                 <events><midi type="Note" parameter="0x58" channel="0x1"/></events>
@@ -488,7 +488,7 @@
                 <mapping>
                 <events><midi type="Note" parameter="0x78" channel="0x1"/></events>
                 <controls><control alias="fam(Fx)[0x1].OnOff"/></controls>
-                <preset name="Holder Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
+                <preset name="Toggler Button"><parameters><parameter object="invert" key="on" value="off"/></parameters></preset>
                 </mapping>
                 <mapping>
                 <events><midi type="Note" parameter="0x78" channel="0x1"/></events>
