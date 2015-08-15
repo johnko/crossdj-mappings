@@ -621,6 +621,88 @@
             <output-mappings>
 
 
+                <device-event name="Shutdown">
+<midi type="Note" parameter="0x0" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x1" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x2" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x3" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x4" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x5" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x6" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x7" channel="0x1" value="12"/>
+
+<midi type="Note" parameter="0x10" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x11" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x12" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x13" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x14" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x15" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x16" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x17" channel="0x1" value="12"/>
+
+<midi type="Note" parameter="0x20" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x21" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x22" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x23" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x24" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x25" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x26" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x27" channel="0x1" value="12"/>
+
+<midi type="Note" parameter="0x30" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x31" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x32" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x33" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x34" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x35" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x36" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x37" channel="0x1" value="12"/>
+
+<midi type="Note" parameter="0x40" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x41" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x42" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x43" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x44" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x45" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x46" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x47" channel="0x1" value="12"/>
+
+<midi type="Note" parameter="0x50" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x51" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x52" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x53" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x54" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x55" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x56" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x57" channel="0x1" value="12"/>
+
+<midi type="Note" parameter="0x60" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x61" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x62" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x63" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x64" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x65" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x66" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x67" channel="0x1" value="12"/>
+
+<midi type="Note" parameter="0x70" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x71" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x72" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x73" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x74" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x75" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x76" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x77" channel="0x1" value="12"/>
+
+<midi type="Note" parameter="0x8" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x18" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x28" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x38" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x48" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x58" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x68" channel="0x1" value="12"/>
+<midi type="Note" parameter="0x78" channel="0x1" value="12"/>
+                </device-event>
                 <device-event name="Startup">
                     <midi type="Note" parameter="0x0" channel="0x1" value="12"/>
                         <midi type="Note" parameter="0x1" channel="0x1" value="12"/>
