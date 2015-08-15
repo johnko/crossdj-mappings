@@ -788,28 +788,46 @@
 
 
                 <mapping><control alias="fam(Player)[0x1].Loaded" value="true"/> <midi type="Note" parameter="0x2" channel="0x1" value="12"/>
-                                                                                 <midi type="Note" parameter="0x3" channel="0x1" value="13"/></mapping>
+                                                                                 <midi type="Note" parameter="0x3" channel="0x1" value="13"/>
+                                                                                 <midi type="Note" parameter="0x10" channel="0x1" value="15"/>
+                                                                                 <midi type="Note" parameter="0x11" channel="0x1" value="30"/></mapping>
+
                 <mapping><control alias="fam(Player)[0x1].Loaded" value="false"/><midi type="Note" parameter="0x2" channel="0x1" value="60"/>
                                                                                  <midi type="Note" parameter="0x3" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x10" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x11" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x12" channel="0x1" value="12"/></mapping>
+
+
                 <mapping><control alias="fam(Player)[0x2].Loaded" value="true"/> <midi type="Note" parameter="0x6" channel="0x1" value="12"/>
-                                                                                 <midi type="Note" parameter="0x7" channel="0x1" value="13"/></mapping>
+                                                                                 <midi type="Note" parameter="0x7" channel="0x1" value="13"/>
+                                                                                 <midi type="Note" parameter="0x14" channel="0x1" value="15"/>
+                                                                                 <midi type="Note" parameter="0x15" channel="0x1" value="30"/></mapping>
+
                 <mapping><control alias="fam(Player)[0x2].Loaded" value="false"/><midi type="Note" parameter="0x6" channel="0x1" value="60"/>
                                                                                  <midi type="Note" parameter="0x7" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x14" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x15" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x16" channel="0x1" value="12"/></mapping>
+
+
                 <mapping><control alias="fam(Player)[0x3].Loaded" value="true"/> <midi type="Note" parameter="0x42" channel="0x1" value="12"/>
-                                                                                 <midi type="Note" parameter="0x43" channel="0x1" value="13"/></mapping>
+                                                                                 <midi type="Note" parameter="0x43" channel="0x1" value="13"/>
+                                                                                 <midi type="Note" parameter="0x50" channel="0x1" value="15"/>
+                                                                                 <midi type="Note" parameter="0x51" channel="0x1" value="30"/></mapping>
+
                 <mapping><control alias="fam(Player)[0x3].Loaded" value="false"/><midi type="Note" parameter="0x42" channel="0x1" value="60"/>
                                                                                  <midi type="Note" parameter="0x43" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x50" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x51" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x52" channel="0x1" value="12"/></mapping>
+
+
                 <mapping><control alias="fam(Player)[0x4].Loaded" value="true"/> <midi type="Note" parameter="0x46" channel="0x1" value="12"/>
-                                                                                 <midi type="Note" parameter="0x47" channel="0x1" value="13"/></mapping>
+                                                                                 <midi type="Note" parameter="0x47" channel="0x1" value="13"/>
+                                                                                 <midi type="Note" parameter="0x54" channel="0x1" value="15"/>
+                                                                                 <midi type="Note" parameter="0x55" channel="0x1" value="30"/></mapping>
+
                 <mapping><control alias="fam(Player)[0x4].Loaded" value="false"/><midi type="Note" parameter="0x46" channel="0x1" value="60"/>
                                                                                  <midi type="Note" parameter="0x47" channel="0x1" value="12"/>
                                                                                  <midi type="Note" parameter="0x54" channel="0x1" value="12"/>
