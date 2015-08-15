@@ -588,8 +588,39 @@
                 <controls><control alias="fam(Fx)[0x1].Select"/></controls>
                 <preset name="Direct Integer Button"><parameters><parameter object="action-0" key="integer" value="13"/><parameter object="dispatch" key="interpretCCasNote" value="off"/></parameters></preset>
                 </mapping>
+
+
+                <mapping>
+                    <events><midi type="CC" parameter="0x68" channel="0x1"/></events>
+                    <controls><control alias="fam(Tracker).BrowseActiveBrowsable"/></controls>
+                    <preset name="Inc.-Dec. Button (as Note)"><parameters><parameter object="action-0" key="integer" value="-1"/><parameter object="dispatch" key="interpretCCasNote" value="on"/><parameter object="metronom" key="Repeat Acceleration" value="0.1"/><parameter object="metronom" key="Repeat Time" value="0"/><parameter object="metronom" key="Start Time" value="500"/></parameters></preset>
+                </mapping>
+                <mapping>
+                    <events><midi type="CC" parameter="0x69" channel="0x1"/></events>
+                    <controls><control alias="fam(Tracker).BrowseActiveBrowsable"/></controls>
+                    <preset name="Inc.-Dec. Button (as Note)"><parameters><parameter object="action-0" key="integer" value="1"/><parameter object="dispatch" key="interpretCCasNote" value="on"/><parameter object="metronom" key="Repeat Acceleration" value="0.1"/><parameter object="metronom" key="Repeat Time" value="0"/><parameter object="metronom" key="Start Time" value="500"/></parameters></preset>
+                </mapping>
+                <mapping>
+                    <events><midi type="CC" parameter="0x6a" channel="0x1"/></events>
+                    <controls><control alias="fam(Tracker).ChangeActiveBrowsable"/></controls>
+                    <preset name="Inc.-Dec. Button (as Note)"><parameters><parameter object="action-0" key="integer" value="1"/><parameter object="dispatch" key="interpretCCasNote" value="on"/><parameter object="metronom" key="Repeat Acceleration" value="0.1"/><parameter object="metronom" key="Repeat Time" value="0"/><parameter object="metronom" key="Start Time" value="500"/></parameters></preset>
+                </mapping>
+                <mapping>
+                    <events><midi type="CC" parameter="0x6b" channel="0x1"/></events>
+                    <controls><control alias="fam(Tracker).AutoplayNext"/></controls>
+                    <preset name="Trigger Fader/Knob"><parameters><parameter object="invert" key="on" value="off"/><parameter object="on-the-edge" key="on" value="off"/><parameter object="range" key="range begin" value="0"/><parameter object="range" key="range end" value="0.01"/></parameters></preset>
+                </mapping>
+                <mapping>
+                    <events><midi type="CC" parameter="0x6c" channel="0x1"/></events>
+                    <controls><control alias="fam(Tracker).AutoplayStartStop"/></controls>
+                    <preset name="Toggler Fader/Knob"><parameters><parameter object="invert" key="on" value="off"/><parameter object="range" key="range begin" value="0"/><parameter object="range" key="range end" value="0.01"/></parameters></preset>
+                </mapping>
+
+
             </input-mappings>
             <output-mappings>
+
+
                 <device-event name="Startup">
                     <midi type="Note" parameter="0x0" channel="0x1" value="12"/>
                         <midi type="Note" parameter="0x1" channel="0x1" value="12"/>
